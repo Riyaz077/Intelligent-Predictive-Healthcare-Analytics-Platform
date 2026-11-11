@@ -87,3 +87,10 @@ Save genuine screenshots of:
 - Performance on a held-out test set does not establish clinical utility.
 - Validate calibration, subgroup performance, fairness, data leakage and external generalization before any real-world research deployment.
 - Do not enter identifiable patient data into this demo.
+
+## Author
+
+**Mohamed Riyaz S.**  
+Integrated M.Tech, Computer Science and Engineering (Business Analytics)  
+VIT Chennai
+
