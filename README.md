@@ -1,4 +1,6 @@
-# AI-Powered Healthcare Intelligence and Disease Prediction
+# Health-Intelligence
+
+## AI-Powered Healthcare Intelligence and Disease Prediction
 
 An educational, end-to-end healthcare analytics prototype for exploratory analysis, multi-disease classification, patient-level model predictions, model evaluation, and an interactive Streamlit dashboard.
 
