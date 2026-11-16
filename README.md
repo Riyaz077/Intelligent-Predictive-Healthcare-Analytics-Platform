@@ -1,4 +1,4 @@
-# Health-Intelligence
+# Intelligent Predictive Healthcare Analytics Platform
 
 ## AI-Powered Healthcare Intelligence and Disease Prediction
 
