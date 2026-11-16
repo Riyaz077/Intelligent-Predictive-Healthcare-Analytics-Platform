@@ -46,30 +46,22 @@ Download the datasets from their original sources and place CSV files in `data/r
 
 For the UCI heart dataset, prepare a CSV with one row per patient and a target column. The common Cleveland processed file uses `num` as the target; this project treats values greater than 0 as positive. For the Pima dataset, the target is usually `Outcome`. For Wisconsin Diagnostic Breast Cancer, use the `diagnosis` column (M/B) or a numeric target. Check each dataset's license and terms before redistribution. Do not commit patient-identifiable or sensitive data.
 
-## Installation
-Python 3.10–3.12 is recommended.
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
-pip install -r requirements.txt
-```
+## **Installation & Setup**
 
-## Run the dashboard
-```bash
-streamlit run dashboard/app.py
-```
-Upload a CSV, choose the target column and positive class (if applicable), train models, inspect metrics, and optionally enter feature values for a demonstration prediction.
+- Ensure Python 3.10–3.12 is installed.
+- Create and activate a Python virtual environment.
+- Install all required dependencies using `requirements.txt`.
+- Launch the interactive Streamlit dashboard.
+- Upload a diabetes dataset in CSV format and select the target column and positive class.
+- Train machine-learning models and evaluate their performance using relevant metrics.
+- Explore model comparisons, analytical insights, and demonstration predictions.
 
-## Run tests
-```bash
-pytest -q
-```
+## **Model Training & Testing**
 
-## Train from the command line
-```bash
-python -m src.train --csv data/raw/diabetes.csv --target Outcome --positive-class 1 --output models/diabetes.joblib
-```
+- Train models directly through the command-line interface using a custom dataset.
+- Specify the target variable and positive class for classification.
+- Save trained model artifacts in the `models/` directory.
+- Run automated tests using `pytest -q` to verify project functionality.
 
 ## Results
 Do not publish example or invented scores as measured results. Add your own evaluation results after running the pipeline. Record dataset version, target definition, split strategy, random seed and metrics for reproducibility.
